@@ -1,9 +1,4 @@
 /*
-font-family: 'Big Shoulders Display', cursive;
-font-family: 'Lexend Deca', sans-serif;
-*/
-
-/*
 ---------------
 DOC DEFAULTS
 ---------------
@@ -21,6 +16,7 @@ html,body {
     font-weight: 400;
     line-height: 1.563rem;
     background-color: #fff;
+    padding: 5.5rem 1.5rem 5.5rem 1.5rem;
 }
 
 /*
@@ -76,16 +72,6 @@ MAIN LAYOUT
 .border-bottom {
     border-bottom-left-radius: .5rem;
     border-bottom-right-radius: .5rem;
-}
-
-.border-left {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-}
-
-.border-right {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
 }
 
 .sedans,
