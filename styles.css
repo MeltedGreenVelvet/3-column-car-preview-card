@@ -1,0 +1,188 @@
+/*
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+*/
+
+/*
+---------------
+DOC DEFAULTS
+---------------
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,body {
+    color: #f2f2f2;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.938rem;
+    font-weight: 400;
+    line-height: 1.563rem;
+    background-color: #fff;
+}
+
+/*
+---------------
+TYPOGRAPHY
+---------------
+*/
+
+.car-section-title {
+    order: 2;
+    line-height: 3rem;
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-top: 2.188rem;
+}
+
+.car-copy {
+    order: 3;
+    margin: 1.563rem 0 1.563rem 0;
+    color: #f2f2f2;
+    line-height: 1.563rem;
+}
+
+/*
+---------------
+MAIN LAYOUT
+---------------
+*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.car-preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20.438rem;
+    height: 82.875rem;
+    border-radius: .5rem;
+}
+
+.border-top {
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+
+.border-bottom {
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+
+.border-left {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.border-right {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.sedans,
+.suvs,
+.luxury {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.sedans {
+    background-color: #E28625;
+}
+
+.suvs {
+    background-color: #006971;
+}
+
+.luxury {
+    background-color: #004140;
+}
+
+.learn-more-btn {
+    order: 4;
+    height: 3rem;
+    width: 9.125rem;
+    background-color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.563rem;
+    border-radius: 3.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sedans-btn-version {
+    color: #E28625;
+}
+
+.suvs-btn-version {
+    color: #006971;
+}
+
+.luxury-btn-version {
+    color: #004140;
+}
+
+.learn-more-btn:focus,
+.learn-more-btn:active,
+.learn-more-btn:hover {
+    background-color:  hsla(0, 0%, 0%, 0);
+    cursor: pointer;
+    outline: solid #fff;
+    color: #fff;
+}
+
+.luxury-car-icon {
+    order: 1;
+    height: 2.5rem;
+    width: 4rem;
+}
+
+/*
+---------------
+MEDIA QUERIES
+---------------
+*/
+
+@media(min-width: 1200px){
+    .car-preview {
+        flex-direction: row;
+        width: 57.5rem;
+        height: 31.25rem;
+    }
+
+    .border-top {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    .border-bottom {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .border-left {
+        border-top-left-radius: .5rem;
+        border-bottom-left-radius: .5rem;
+    }
+
+    .border-right {
+        border-top-right-radius: .5rem;
+        border-bottom-right-radius: .5rem;
+    }
+
+    .car-copy {
+        margin-bottom: 5.188rem;
+    }
+}
