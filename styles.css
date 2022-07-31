@@ -142,6 +142,10 @@ MEDIA QUERIES
 */
 
 @media(min-width: 1200px){
+    html,body {
+        padding: 0;
+    }
+
     .car-preview {
         flex-direction: row;
         width: 57.5rem;
