@@ -12,10 +12,10 @@ DOC DEFAULTS
 html,body {
     color: #f2f2f2;
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 0.938rem;
+    font-size: 15px;
     font-weight: 400;
-    line-height: 1.563rem;
-    background-color: #fff;
+    line-height: 1.667rem;
+    background-color: #F2F2F2;
     padding: 5.5rem 1.5rem 5.5rem 1.5rem;
 }
 
@@ -27,19 +27,20 @@ TYPOGRAPHY
 
 .car-section-title {
     order: 2;
-    line-height: 3rem;
+    line-height: 3.2rem;
     text-transform: uppercase;
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 700;
-    font-size: 2.5rem;
-    margin-top: 2.188rem;
+    font-size: 2.667rem;
+    margin-top: 2.333rem;
 }
 
 .car-copy {
     order: 3;
-    margin: 1.563rem 0 1.563rem 0;
+    margin: 1.667rem 0 1.667rem 0;
     color: #f2f2f2;
-    line-height: 1.563rem;
+    font-size: 1rem;
+    opacity: .75;
 }
 
 /*
@@ -59,25 +60,25 @@ MAIN LAYOUT
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 20.438rem;
-    height: 82.875rem;
-    border-radius: .5rem;
+    width: 21.8rem;
+    height: 88.4rem;
+    border-radius: 0.533rem;
 }
 
 .border-top {
-    border-top-left-radius: .5rem;
-    border-top-right-radius: .5rem;
+    border-top-left-radius: 0.533rem;
+    border-top-right-radius: 0.533rem;
 }
 
 .border-bottom {
-    border-bottom-left-radius: .5rem;
-    border-bottom-right-radius: .5rem;
+    border-bottom-left-radius: 0.533rem;
+    border-bottom-right-radius: 0.533rem;
 }
 
 .sedans,
 .suvs,
 .luxury {
-    padding: 3rem;
+    padding: 3.2rem;
     display: flex;
     flex-direction: column;
 }
@@ -96,13 +97,13 @@ MAIN LAYOUT
 
 .learn-more-btn {
     order: 4;
-    height: 3rem;
-    width: 9.125rem;
+    height: 3.2rem;
+    width: 9.733rem;
     background-color: #f2f2f2;
     text-align: center;
     text-decoration: none;
-    line-height: 1.563rem;
-    border-radius: 3.125rem;
+    line-height: 1.667rem;
+    border-radius: 1.667rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,14 +126,14 @@ MAIN LAYOUT
 .learn-more-btn:hover {
     background-color:  hsla(0, 0%, 0%, 0);
     cursor: pointer;
-    outline: solid #fff;
-    color: #fff;
+    outline: solid #F2F2F2;
+    color: #F2F2F2;
 }
 
 .luxury-car-icon {
     order: 1;
-    height: 2.5rem;
-    width: 4rem;
+    height: 2.667rem;
+    width: 4.267rem;
 }
 
 /*
@@ -148,8 +149,8 @@ MEDIA QUERIES
 
     .car-preview {
         flex-direction: row;
-        width: 57.5rem;
-        height: 31.25rem;
+        width: 61.333rem;
+        height: 33.333rem;
     }
 
     .border-top {
@@ -163,16 +164,16 @@ MEDIA QUERIES
     }
 
     .border-left {
-        border-top-left-radius: .5rem;
-        border-bottom-left-radius: .5rem;
+        border-top-left-radius: 0.533rem;
+        border-bottom-left-radius: 0.533rem;
     }
 
     .border-right {
-        border-top-right-radius: .5rem;
-        border-bottom-right-radius: .5rem;
+        border-top-right-radius: 0.533rem;
+        border-bottom-right-radius: 0.533rem;
     }
 
     .car-copy {
-        margin-bottom: 5.188rem;
+        margin-bottom: 5.533rem;
     }
 }
