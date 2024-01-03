@@ -18,6 +18,7 @@ html,body {
     background-color: #F2F2F2;
     box-sizing: border-box;
     margin-top: 11px;
+    letter-spacing: -.02px;
 }
 
 /*
@@ -86,11 +87,11 @@ MAIN LAYOUT
 
 .suvs,
 .luxury {
-    width: 307px;
+    width: 20.467rem;
 }
 
 .sedans {
-    width: 306px
+    width: 20.4rem;
 }
 
 .sedans {
